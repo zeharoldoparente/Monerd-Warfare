@@ -1,0 +1,153 @@
+/*Inicio do Header da Página*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+
+header img {
+    width: 300px;
+}
+
+header,
+section h2,
+section h4,
+.descriptions ul{
+    font-family: 'Bebas Neue', cursive;
+}
+
+header{
+    background-color: black;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 0px;
+}
+
+header li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover{
+    text-decoration: underline;
+    color: blue
+}
+
+.line {
+    height: 10px;
+    background-color: #7EC92E;
+}
+
+/*Fim do Header da Página*/
+/*Inicio do Section da Página*/
+.imagem-information {
+    width: 700px;
+    margin-right: 32px;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+.availability-list img{
+    height: 25px;
+}
+
+.availability-list li{
+    display: inline;
+    margin-right: 15px;
+}
+
+section p,
+section h2,
+section h4{
+    margin-bottom: 10px;
+}
+
+.descriptions li{
+    list-style: none;
+}
+
+.descriptions {
+    margin-right: 15px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+
+#contact  .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-around;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button{
+    background-color: #7EC92E;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #7EC92E;
+}
+
+input:focus, 
+textarea:focus{
+    outline-color: #7EC92E;
+}
+
+/*Fim do Section da Página*/
+/*Inicio do Footer da Página*/
+footer {
+    background-color: black;
+    color: white;
+}
